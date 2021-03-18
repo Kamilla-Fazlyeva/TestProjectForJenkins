@@ -50,7 +50,8 @@
                 <version>${allure-maven-plugin.version}</version>
                 <configuration>
                     <reportVersion>${allure.version}</reportVersion>
-                    <resultsDirectory>${project.basedir}/allure-results</resultsDirectory>
+                  <!--  <resultsDirectory>${project.basedir}/allure-results</resultsDirectory>  -->
+                    <resultsDirectory>C:\Program Files\Jenkins\.jenkins\workspace\TestJob\target\allure-results</resultsDirectory>
                 </configuration>
             </plugin>
 
